@@ -3,6 +3,20 @@
 // Example output:
 // console.log(range(1, 10)); // outputs [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
+// function for ranges start and end i is the start and will keep adding 1 until end is reached.
+// function also calculates the range.
+function range(start, end) {
+    let result = [];
+    for (let i = start; i <= end; i++)
+        {
+            result.push(i);
+        }  
+    return result;
+}
+
+// console log used to demonstrate function works
+console.log(range(9, 25));
+
 // 2. Next, write a sum function that takes an array of numbers and returns the sum of
 // these numbers. Run the example program and see whether it does indeed return 55.
 // Example output:
